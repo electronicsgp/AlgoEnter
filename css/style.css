@@ -1526,7 +1526,7 @@ img {
 
 .icon-lg {
     font-size: 48px;
-    color: #505cfd;
+    color: #ffffff;
 }
 
 .icon-circle {
@@ -4451,6 +4451,12 @@ textarea.form-input {
     height: auto;
 }
 
+.section-banner h2 {
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 /*
 * Page layout
@@ -5592,6 +5598,18 @@ html [class*='section-'].section-bottom-0 {
     } */
 }
 
+.bg-image-3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #404044;
+}
+
+@media (min-width: 576px) {
+    .bg-image-3 {
+        background-image: url("../images/barraC.jpg");
+    }
+}
+
 
 /*
 * Utilities custom
@@ -5706,7 +5724,7 @@ html [class*='section-'].section-bottom-0 {
     width: 150px;
     height: 3px;
     display: none;
-    background-color: #505cfd;
+    background-color: #603E84;
 }
 
 @media (min-width: 1200px) {
@@ -8866,8 +8884,8 @@ html.rd-navbar-fixed-linked .page {
 
 .owl-carousel .owl-dot.active span,
 .owl-carousel .owl-dot:hover span {
-    background: #505cfd;
-    border-color: #505cfd;
+    background: #603E84;
+    border-color: #603E84;
 }
 
 .test {
@@ -9007,7 +9025,7 @@ html.rd-navbar-fixed-linked .page {
     }
     .review-carousel .owl-dots .active:before {
         font-size: 18px;
-        color: #505cfd;
+        color: #603E84;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         position: absolute;
@@ -9019,7 +9037,7 @@ html.rd-navbar-fixed-linked .page {
     .review-carousel .owl-dots .active:after {
         content: '';
         width: 3px;
-        background-color: #505cfd;
+        background-color: #603E84;
         height: 67px;
         top: 21px;
         left: 50%;

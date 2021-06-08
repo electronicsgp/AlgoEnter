@@ -891,7 +891,7 @@ a[href*='mailto'] {
 .pricing-box>* {
     position: relative;
     z-index: 2;
-    color: #ffffff;
+    color: #000000;
 }
 
 .pricing-box:before {
@@ -4692,7 +4692,7 @@ html.boxed body {
 }
 
 .text-primary {
-    color: #603E84 !important;
+    color: #603E84;
 }
 
 .text-gray-dark {
@@ -9123,4 +9123,38 @@ html.rd-navbar-fixed-linked .page {
 .layer-6 {
     top: 24%;
     left: 19.5%;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border: transparent;
+    background-color: transparent;
+    transition: .6s;
+    box-shadow: inset 0 -200vh 0 -1px transparent;
+    color: #000000;
+    /* transition: box-shadow .6s ease-in-out; */
+}
+
+.card:hover .svgcolor {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    transform: scale(1.1);
+}
+
+.cnosotros .svgcolor {
+    width: 35%;
+    filter: invert(30%) sepia(8%) saturate(5114%) hue-rotate(233deg) brightness(87%) contrast(92%);
+}
+
+.cnosotros:hover {
+    box-shadow: inset 0 -200vh 0 -1px #633882;
+    color: white;
+}
+
+.cnosotros:hover h4 {
+    color: #999999;
+}
+
+.cnosotros:hover h4 .text-primary {
+    color: white;
 }

@@ -5506,6 +5506,14 @@ html [class*='section-'].section-bottom-0 {
     background-color: #48484c;
 }
 
+.bg-cian {
+    background-color: #92DCE5;
+}
+
+.bg-melon {
+    background-color: #EF959C;
+}
+
 .bg-gray:not([style*="background-"])+.bg-gray:not([style*="background-"]) {
     padding-top: 0;
 }
@@ -9142,7 +9150,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .cnosotros .svgcolor {
-    width: 35%;
+    width: 30%;
     filter: invert(30%) sepia(8%) saturate(5114%) hue-rotate(233deg) brightness(87%) contrast(92%);
 }
 
@@ -9157,4 +9165,9 @@ html.rd-navbar-fixed-linked .page {
 
 .cnosotros:hover h4 .text-primary {
     color: white;
+}
+
+.svgcolorM {
+    filter: invert(30%) sepia(8%) saturate(5114%) hue-rotate(233deg) brightness(87%) contrast(92%);
+    width: 40%;
 }

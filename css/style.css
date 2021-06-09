@@ -2128,7 +2128,7 @@ hr {
 
 .button-way-point:hover {
     background-color: #ffffff;
-    color: #505cfd;
+    color: #603E84;
     transition: all ease .35s;
 }
 
@@ -5980,7 +5980,7 @@ html:not(.lt-ie10) .not-animated {
     width: 36px;
     height: 36px;
     margin: 0 auto;
-    border: 3px solid #505cfd;
+    border: 3px solid #603E84;
     border-radius: 50%;
     border-left-color: transparent;
     border-bottom-color: transparent;

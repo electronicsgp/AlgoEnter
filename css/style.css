@@ -9189,7 +9189,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .carousel-item {
-    height: 100vh;
+    height: 70vh;
     min-height: 350px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;

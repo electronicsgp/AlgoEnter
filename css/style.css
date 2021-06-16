@@ -9197,3 +9197,12 @@ html.rd-navbar-fixed-linked .page {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.w-100 {
+    transition: .6s;
+}
+
+.w-100:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
